@@ -166,7 +166,9 @@
       <!-- NOVA Deep Space Hero Banner -->
       <div class="relative rounded-3xl overflow-hidden nova-panel border border-white/15 shadow-2xl">
         <div class="absolute inset-0 opacity-30 pointer-events-none">
-          <img src="nova-space.png" alt="Deep Space Orbit" class="w-full h-full object-cover object-right" />
+          <img src="mars-earth-orbit.jpg" alt="Mars and Earth in Deep Space Orbit" class="w-full h-full object-cover object-right sm:object-center transform scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-r from-[#030509] via-[#030509]/85 to-transparent"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#030509] via-transparent to-transparent"></div>
           <div class="absolute inset-0 bg-gradient-to-r from-[#030509] via-[#030509]/90 to-transparent"></div>
         </div>
         <div class="relative p-6 sm:p-8 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
@@ -189,6 +191,18 @@
               <span class="px-2.5 py-1 rounded-lg bg-white/5 border border-white/10 text-slate-200">
                 <i class="fa-solid fa-quote-left text-orange-400 mr-1"></i>Key Slogan: Standard lab ranges hide early spaceflight changes — personal baselines reveal them.
               </span>
+            </div>
+
+            <!-- Zero-Login Direct Launch CTAs -->
+            <div class="pt-2 flex flex-wrap items-center gap-3 font-mono text-xs">
+              <a href="#chDaysToRiskBox" onclick="document.getElementById('chInteractiveSolSlider')?.scrollIntoView({behavior:'smooth'})" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-bold shadow-lg shadow-orange-500/30 flex items-center space-x-2 transition cursor-pointer">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Launch Interactive 3D Habitat &amp; Simulator</span>
+              </a>
+              <button onclick="document.querySelectorAll('.nav-tab').forEach(t => { if(t.getAttribute('data-target')==='judgingView') t.click(); }); document.getElementById('judgingView')?.scrollIntoView({behavior:'smooth'});" class="px-4 py-2.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-cyan-300 border border-cyan-500/40 font-bold flex items-center space-x-2 transition cursor-pointer">
+                <i class="fa-solid fa-database"></i>
+                <span>Explore NASA Inspiration4 Data &amp; Q&amp;A</span>
+              </button>
             </div>
           </div>
 
