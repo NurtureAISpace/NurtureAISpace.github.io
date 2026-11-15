@@ -1,13 +1,13 @@
 # NurtureAISpace
 
 <div align="center">
-  <img src="logo.svg" alt="NurtureAISpace Logo" width="280" />
+  <img src="nurtureaispace-badge.jpg" alt="NurtureAISpace Official Mission Emblem" width="220" style="border-radius: 50%; box-shadow: 0 10px 25px rgba(0,0,0,0.5);" />
   <br />
   <h2>NurtureAI Space — health monitoring for astronauts</h2>
   <p>NASA Space Apps 2026, challenge: <em>Create Health Monitoring Software for Astronauts on Space Missions</em>. Daily check-in app + crew dashboard + vitamin forecast. The live site shows a demo snapshot; source: <a href="https://github.com/NurtureAISpace/mars-food-intelligence">NurtureAISpace/mars-food-intelligence</a>.</p>
   <p><strong>Developed by Team NurtureAISpace</strong></p>
   <p>
-    <a href="https://nurtureaispace.github.io"><strong>Open the live demo »</strong></a>
+    <a href="https://nurtureaispace.github.io"><strong>Open the live demo »</strong></a> • <a href="https://nurtureaispace.github.io/app/"><strong>Astronaut App »</strong></a> • <a href="https://nurtureaispace.github.io/slides.html"><strong>Official 7-Slide Deck »</strong></a>
   </p>
 </div>
 
