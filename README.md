@@ -7,7 +7,7 @@
   <p>NASA Space Apps 2026, challenge: <em>Create Health Monitoring Software for Astronauts on Space Missions</em>. Daily check-in app + crew dashboard + vitamin forecast. The live site shows a demo snapshot; source: <a href="https://github.com/NurtureAISpace/mars-food-intelligence">NurtureAISpace/mars-food-intelligence</a>.</p>
   <p><strong>Developed by Team NurtureAISpace</strong></p>
   <p>
-    <a href="https://nurtureaispace.github.io"><strong>Open the live demo »</strong></a> • <a href="https://nurtureaispace.github.io/app/"><strong>Astronaut App »</strong></a> • <a href="https://nurtureaispace.github.io/slides.html"><strong>Official 7-Slide Deck »</strong></a>
+    <a href="https://nurtureaispace.github.io"><strong>Open the live demo »</strong></a> • <a href="https://nurtureaispace.github.io/app/"><strong>Astronaut App »</strong></a> • <a href="https://nurtureaispace.github.io/slides.html"><strong>Official 7-Slide Deck »</strong></a> • <a href="certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf"><strong>NASA Certificate »</strong></a>
   </p>
 </div>
 
@@ -25,6 +25,8 @@
 - **Crew dashboard (demo snapshot):** [https://nurtureaispace.github.io](https://nurtureaispace.github.io)
 - **Astronaut App (check-ins stay on the device):** [https://nurtureaispace.github.io/app/](https://nurtureaispace.github.io/app/)
 - **Slides:** [/slides.html](https://nurtureaispace.github.io/slides.html)
+- **Official NASA Certificate:** [NASA Space Apps 2026 Certificate (PDF)](certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf) • [Verified Dossier](https://suleimancertificates.github.io/certificates/nasa-space-apps-challenge-2026/)
+- **Project Submission Guide:** [NASA Space Apps Challenge Guide (PDF)](docs/NASA_Space_Apps_Challenge_Submission_Guide.pdf)
 - **Organization:** [https://github.com/NurtureAISpace](https://github.com/NurtureAISpace)
 - **Core Technology:** First-principles Arrhenius degradation kinetics, SciPy linear constrained diet optimization, and a synthetic greenhouse model.
 - **Lead Architect Contact:** Suleyman Hajizadeh (`suleyman.hacizade1@gmail.com`)
