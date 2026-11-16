@@ -1,43 +1,54 @@
-# NurtureAISpace
+# NurtureAI Space
 
 <div align="center">
-  <img src="nurtureaispace-badge.jpg" alt="NurtureAISpace Official Mission Emblem" width="220" style="border-radius: 50%; box-shadow: 0 10px 25px rgba(0,0,0,0.5);" />
+  <img src="nurtureaispace-badge.jpg" alt="NurtureAISpace Mission Emblem" width="200" style="border-radius: 50%;" />
   <br />
-  <h2>NurtureAI Space — health monitoring for astronauts</h2>
-  <p>NASA Space Apps 2026, challenge: <em>Create Health Monitoring Software for Astronauts on Space Missions</em>. Daily check-in app + crew dashboard + vitamin forecast. The live site shows a demo snapshot; source: <a href="https://github.com/NurtureAISpace/mars-food-intelligence">NurtureAISpace/mars-food-intelligence</a>.</p>
+  <h2>NurtureAI Space: Health Monitoring for Astronauts</h2>
+  <p>NASA Space Apps Challenge 2026: <em>Create Health Monitoring Software for Astronauts on Space Missions</em>.<br />Daily check-in app, crew dashboard, and vitamin degradation forecast.</p>
   <p><strong>Developed by Team NurtureAISpace</strong></p>
   <p>
-    <a href="https://nurtureaispace.github.io"><strong>Open the live demo »</strong></a> • <a href="https://nurtureaispace.github.io/app/"><strong>Astronaut App »</strong></a> • <a href="https://nurtureaispace.github.io/slides.html"><strong>Official 7-Slide Deck »</strong></a> • <a href="certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf"><strong>NASA Certificate »</strong></a>
+    <a href="https://nurtureaispace.github.io">Live Demo</a> | 
+    <a href="https://nurtureaispace.github.io/app/">Astronaut Application</a> | 
+    <a href="https://nurtureaispace.github.io/slides.html">Slide Deck</a> | 
+    <a href="certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf">NASA Certificate</a>
   </p>
 </div>
 
 ---
 
-### 👥 Team NurtureAISpace
-* **Suleyman Hajizadeh** — Lead Systems Architect & Research ([`suleyman.hacizade1@gmail.com`](mailto:suleyman.hacizade1@gmail.com))
-* **Banu Gurbanzada** — Frontend Architecture & UI/UX Design ([`banugurbanzade@gmail.com`](mailto:banugurbanzade@gmail.com))
-* **Yunis Allahverdi** — AI/ML & Degradation Modeling ([`allahverdiyunis@gmail.com`](mailto:allahverdiyunis@gmail.com))
-* **Faruk Karimli** — Computer Engineering & Life Support Simulation ([`fkarimli23291@ada.edu.az`](mailto:fkarimli23291@ada.edu.az))
+## Team
+
+- **Suleyman Hajizadeh** - Lead Systems Architect and Research (`suleyman.hacizade1@gmail.com`)
+- **Banu Gurbanzada** - Frontend Architecture and UI/UX Design (`banugurbanzade@gmail.com`)
+- **Yunis Allahverdi** - AI/ML and Degradation Modeling (`allahverdiyunis@gmail.com`)
+- **Faruk Karimli** - Computer Engineering and Life Support Simulation (`fkarimli23291@ada.edu.az`)
 
 ---
 
-### 🌐 Official Live Platform
-- **Crew dashboard (demo snapshot):** [https://nurtureaispace.github.io](https://nurtureaispace.github.io)
-- **Astronaut App (check-ins stay on the device):** [https://nurtureaispace.github.io/app/](https://nurtureaispace.github.io/app/)
-- **Slides:** [/slides.html](https://nurtureaispace.github.io/slides.html)
-- **Official NASA Certificate:** [NASA Space Apps 2026 Certificate (PDF)](certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf) • [Verified Dossier](https://suleimancertificates.github.io/certificates/nasa-space-apps-challenge-2026/)
-- **Project Submission Guide:** [NASA Space Apps Challenge Guide (PDF)](docs/NASA_Space_Apps_Challenge_Submission_Guide.pdf)
-- **Organization:** [https://github.com/NurtureAISpace](https://github.com/NurtureAISpace)
-- **Core Technology:** First-principles Arrhenius degradation kinetics, SciPy linear constrained diet optimization, and a synthetic greenhouse model.
-- **Lead Architect Contact:** Suleyman Hajizadeh (`suleyman.hacizade1@gmail.com`)
+## Live Platform and Resources
+
+- **Crew Dashboard:** https://nurtureaispace.github.io
+- **Astronaut App (Offline-First Daily Check-In):** https://nurtureaispace.github.io/app/
+- **Slide Deck:** https://nurtureaispace.github.io/slides.html
+- **Official NASA Certificate (Galactic Problem Solver):** [Certificate PDF](certificates/NASA_Space_Apps_Challenge_2026_Certificate.pdf) | [Credential Dossier](https://suleimancertificates.github.io/certificates/nasa-space-apps-challenge-2026/)
+- **Submission Guide:** [NASA Space Apps Challenge Guide (PDF)](docs/NASA_Space_Apps_Challenge_Submission_Guide.pdf)
+- **Organization:** https://github.com/NurtureAISpace
+- **Primary Source Code:** https://github.com/NurtureAISpace/mars-food-intelligence
 
 ---
 
-### Code, data sources and honesty notes
-This is a research prototype (not a medical device) built for NASA Space Apps Challenge 2026, Ganja. Most scenarios are synthetic and are labeled as synthetic in the app.
-- Main code: [`NurtureAISpace/mars-food-intelligence`](https://github.com/NurtureAISpace/mars-food-intelligence). If you cannot open it, contact `suleyman.hacizade1@gmail.com`.
-- Every parameter and its source: `docs/DATA_SOURCES.md` in that repository.
-- Real NASA data used: NASA OSDR OSD-569 and OSD-575 (Inspiration4). NASA publications are cited as references.
-- Not all code was written during the hackathon; see "Built before vs during the hackathon" in that repository's README.
+## Technical Scope and Methodology
 
-This public repository contains the static build of the app for the live site (built with `scripts/build_site.ps1` in the main repository). It reads a JSON snapshot of the API, so it runs without a server; live check-ins run in our laptop demo.
+- **Personal Baseline Monitoring:** Uses NASA OSDR Inspiration4 datasets (OSD-569 and OSD-575) to compare physiological indicators against personal pre-flight baselines.
+- **Kinetics Engine:** Models thermal degradation of vitamins C and B1 under varying storage temperatures via first-order Arrhenius kinetics.
+- **Ration Optimization:** Computes balanced daily meal plans using SciPy linear programming (HiGHS solver) to meet exploration nutrition targets while minimizing resupply mass.
+- **Autonomous Architecture:** The client-side astronaut application runs offline using local IndexedDB storage and biometric pseudonymization.
+
+---
+
+## Data Sources and Notes
+
+This repository contains the static build of the web application deployed to GitHub Pages (built with `scripts/build_site.ps1` from the main repository).
+- Core source code: [`NurtureAISpace/mars-food-intelligence`](https://github.com/NurtureAISpace/mars-food-intelligence).
+- Parameter documentation: `docs/DATA_SOURCES.md` in the source repository.
+- Research prototype: Designed for technical demonstration and exploration planning, not certified as a clinical medical device.
